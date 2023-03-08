@@ -8,7 +8,6 @@ import os
 import certifi
 from datetime import date
 import time
-from zbarcam import ZBarCam
 
 os.environ['SSL_CERT_FILE'] = certifi.where()
 
