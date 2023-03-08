@@ -1,0 +1,27 @@
+#:include kv/homepage.kv
+#:include kv/loginpage.kv
+#:include kv/ajustepage.kv
+#:include kv/camerapage.kv
+
+#:import utils kivy.utils
+
+FloatLayout:
+
+    FloatLayout:
+
+        ScreenManager:
+            pos_hint:{"right": 1, "top":1}
+            size_hint: 1, 1
+            id: screen_manager
+            LoginPage:
+                name:"loginpage"
+                id: loginpage
+            HomePage:
+                name:"homepage"
+                id: homepage
+            CameraPage:
+                name:"camerapage"
+                id: camerapage
+            AjustePage:
+                name:"ajustepage"
+                id:ajustepage
