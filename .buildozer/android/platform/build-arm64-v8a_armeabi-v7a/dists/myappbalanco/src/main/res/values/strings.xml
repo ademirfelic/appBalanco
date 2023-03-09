@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">App Balaco</string>
-    <string name="private_version">dfc56098f494e31f38b52ff5dcc46d09fa22408c</string>
+    <string name="private_version">d2b1a52604b8f08f57bbd11886429ae618208512</string>
     <string name="presplash_color">#000000</string>
     <string name="urlScheme">kivy</string>
 </resources>
